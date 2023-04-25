@@ -34,4 +34,12 @@ body {
   height: min(90vw, 80vh);
 }
 
+.container{
+  background-color: #b6b6cc;
+  padding:10px;
+}
+
+.image{
+  border-radius: 5%;
+}
 /* place your styles below */
