@@ -66,8 +66,8 @@ export interface VerticalSplitter extends Element {
  */
 export interface Action {
   type: 'update';
-  referenceElementkey: string;
+  referenceElementKey: string;
   value: {
-    [key: string]: string;
+    [key: string]: Color;
   };
 }
